@@ -1,0 +1,57 @@
+<html lang = "en-US">
+
+<head>...
+</head>
+
+<body>
+   <h1> I am a H1</h1>
+   <h2> I am a H2, samller than H1</h2>
+   <h3> I am a H3, samller than H2</h3>
+   <h5> I am a H5, smaller than H3</h5>
+   <h1 id = "counter"> </h1>
+
+   <button onclick = "addCounter()">Click Me</button>
+   <script>...
+   </script>...
+
+   <div> I am a div, by default I do not have borders.
+   </div>
+   <br>
+
+   <div typr = 'a' id = "random - div" class ="square -div">
+      I am a div, and I am styled to have red border.
+   </div>
+   <br>
+
+   <div style ="border : 5px solid blue;">
+      I am a div, and I am styled to have blue border.
+   </div>
+   <br>
+
+   <a href = “https://www.google.com”>
+      Visit google.com!
+   </a>
+
+   <p>
+      I am a paragraph.
+      Life, thin and light-off time and time again.
+      Love alters not with his brief hours and weeks.But bears it out even to the edge of doom.
+      If this be error and upon me proved.
+   </p>
+   </br>
+
+   <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="Girl in a jacket">
+   <body>
+    <h2>Click the Button</h2>
+    <!-- Button Example 1 -->
+    <button type="button">Click Me</button>
+    
+    <!-- Button Example 2 with inline JavaScript -->
+    <button type="button" onclick="alert('Button clicked!')">Click Me Too</button>
+    
+    <!-- Button Example 3 with external JavaScript -->
+    <button type="button" id="myButton">Click Me Three</button>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+  </body>
