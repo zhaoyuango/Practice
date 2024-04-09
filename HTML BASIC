@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!-- 声明文档类型 -->
+
+<html lang="en"> <!-- html 根元素 -->
+
+<head> <!-- 头部信息，包含页面的元数据和引用的资源 -->
+    <meta charset="UTF-8"> <!-- 定义文档的字符编码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 定义页面在移动设备上的显示方式 -->
+
+    <title>My First Web Page</title> <!-- 定义页面标题 -->
+</head>
+
+<body> <!-- 页面主体内容 -->
+
+    <h1>Welcome to My Website</h1> <!-- 标题级别一 -->
+
+    <p>This is a paragraph of text.</p> <!-- 段落 -->
+
+    <p>Here is a <a href="https://example.com">link</a> to an example website.</p> <!-- 链接 -->
+
+</body>
+
+</html>
+
+<!-- 
+Heading Tags (<h1>, <h2>, <h3>, <h4>, <h5>, <h6>):
+
+<h1>This is a level 1 heading</h1>
+<h2>This is a level 2 heading</h2>
+<h3>This is a level 3 heading</h3>
+
+Paragraph Tag (<p>):
+<p>This is a paragraph.</p>
+
+Anchor Tag (<a>):
+<a href="https://www.example.com">Visit Example</a>
+
+Image Tag (<img>):
+<img src="image.jpg" alt="Description of the image">
+
+List Tags (<ul>, <ol>, <li>):
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ol>
+
+Table Tags (<table>, <tr>, <td>):
+<table border="1">
+    <tr>
+        <td>Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+    </tr>
+    <tr>
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+    </tr>
+</table>
+
+Form Tags (<form>, <input>, <button>):
+<form action="/submit" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <button type="submit">Submit</button>
+</form>
+
+Style and Script Tags (<style>, <script>):
+<style>
+    body {
+        background-color: lightblue;
+    }
+</style>
+
+<script>
+    alert("This is an alert message!");
+</script>
+-->
